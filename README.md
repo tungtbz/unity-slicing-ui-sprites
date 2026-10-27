@@ -11,6 +11,12 @@ It removes only the pixels a uGUI `Image` can regenerate exactly:
 The sprite keeps its GUID and its atlas, so no prefab reference changes. Every result is measured
 (PSNR, tile seams) instead of eyeballed.
 
+## Demo
+
+![Before and after: the old sprite is 1045x523 px (26.8 KB); the new sliced/tiled sprite is much smaller and looks the same when drawn by a uGUI Image](docs/demo.png)
+
+Left: the original PNG. Right: the sliced and tiled PNG, drawn by a uGUI `Image` at the same on-screen look.
+
 ## Install
 
 Copy this folder into your Unity project:
